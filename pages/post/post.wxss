@@ -1,0 +1,43 @@
+/* pages/post/post.wxss */
+.container {
+  padding: 20rpx;
+}
+
+.post__title,
+.comment__header {
+  font-size: 17px;
+  font-weight: bold;
+  border-left: solid 4px #99b5c1;
+  margin: 40rpx 0;
+  padding-left: 5px;
+}
+
+.post__author-info {
+  margin-bottom: 20rpx;
+}
+
+.comment {
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.comment__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.comment__avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.comment__detail {
+  margin-left: 20rpx;
+}
+
+.comment__created {
+  font-size: 11px;
+}

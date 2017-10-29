@@ -1,0 +1,18 @@
+<template name="topic">
+  <view class="topic__container">
+    <view class="topic__author-info">
+      <image src="{{member.avatar_normal}}" class="topic__author-avatar"/>
+      <view class="topic__detail">
+        <view><text>{{member.username}}</text></view>
+        <view class="topic__created"><text>{{created}}</text></view>
+      </view>
+    </view>
+    <view class="topic__title">
+      <text>{{title}}</text>
+    </view>
+    <view class="topic__info">
+      <text>{{replies}}条回复</text>
+      <text>{{node.title}}</text>
+    </view>
+  </view>
+</template>

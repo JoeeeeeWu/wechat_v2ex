@@ -1,0 +1,31 @@
+<!--pages/post/post.wxml-->
+<view class="container">
+  <view>
+    <view class="post__title">
+      <text>{{post.node.title}} | {{post.title}}</text>
+    </view>
+    <view class="post__author-info">
+      <view><text>楼主：{{post.member.username}}</text></view>
+      <view><text>发布时间：{{post.created}}</text></view>
+    </view>
+    <view class="post__content">
+      <text>{{post.content}}</text>
+    </view>
+  </view>
+  <view>
+    <view class="comment__header">
+      <text>共{{post.replies}}条评论</text>
+    </view>
+    <view class="comment" wx:for="{{comments}}">
+      <view class="comment__info">
+        <image class="comment__avatar" src="{{item.member.avatar_normal}}"></image>
+        <view class="comment__detail">
+          <view><text class="comment__author">{{item.member.username}}</text></view>
+          <view class="comment__created"><text>{{item.created}}</text></view>
+        </view>
+      </view>
+      <text>{{item.content}}</text>
+    </view>
+  </view>
+</view>
+

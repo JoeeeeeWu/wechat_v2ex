@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<import src="/templates/topic_template/topic_template.wxml"/>
+<view class="">
+  <view class="header">
+    <text>最新主题</text>
+  </view>
+  <blcok wx:for="{{latestTopics}}">
+    <view catchtap="onTouch" id="{{item.id}}">
+      <template is="topic" data="{{...item}}"/>
+    </view>
+  </blcok>
+  <view class="header">
+    <text>最热主题</text>
+  </view>
+  <blcok wx:for="{{hotTopics}}">
+    <view catchtap="onTouch" id="{{item.id}}">
+      <template is="topic" data="{{...item}}"/>
+    </view>
+  </blcok>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/node/node.wxml-->
+<view class="classname">
+  <text>节点列表</text>
+  <view class="classname">
+    <view class="classname">
+      <image src="#"></image>
+      <text>节点名称</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+.topic__container {
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.topic__author-info {
+  display: flex;
+  align-items: center;
+}
+
+.topic__author-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.topic__detail {
+  margin-left: 20rpx;
+}
+
+.topic__created {
+  font-size: 11px;
+}
+
+.topic__title,
+.topic__info {
+  margin-top: 20rpx;
+}
+
+.topic__info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+

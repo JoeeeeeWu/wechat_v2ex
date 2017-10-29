@@ -1,0 +1,5 @@
+<!--pages/user/user.wxml-->
+<view class="classname">
+  <image src="#"></image>
+  <text>text</text>
+</view>

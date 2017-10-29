@@ -1,0 +1,10 @@
+/**index.wxss**/
+@import "/templates/topic_template/topic_template.wxss";
+
+.header {
+  font-size: 17px;
+  font-weight: bold;
+  border-left: solid 4px #99b5c1;
+  margin: 40rpx 0;
+  padding-left: 5px;
+}
